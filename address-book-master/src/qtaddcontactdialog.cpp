@@ -27,15 +27,7 @@ QtAddContactDialog::QtAddContactDialog(Contact &c, QWidget *parent, Qt::WindowFl
     setLayout(mainContainer);
     setWindowTitle("New Contact");
 }
-/*
-QPushButton *backgroundColourButton;
-QColor *backgroundColour;
-backgroundColour->setRgb(0,25,0); //example colour, I could later manage to utilize this variable with a QColorDialog
-QPalette Pal(palette());
-Pal.setColor(QPalette::Button, backgroundColour->rgb());
-backgroundColourButton->setAutoFillBackground(true);
-backgroundColourButton->setPalette(Pal);
-*/
+
 void QtAddContactDialog::accept()
 {
     outContact.firstName = contactForm->firstNameField->text().toStdString();

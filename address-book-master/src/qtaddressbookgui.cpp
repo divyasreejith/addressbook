@@ -44,19 +44,19 @@ void QtAddressBookGUI::createWidgets()
     newContactButton = new QPushButton("New Contact");
     newContactButton ->setDefault(true);
     newContactButton ->setAutoDefault(true);
-    newContactButton ->setStyleSheet("background-color: green; color: white");
+    newContactButton ->setStyleSheet("background-color: blue; color: white");
     editContactButton = new QPushButton("Edit");
     editContactButton ->setDefault(true);
     editContactButton ->setAutoDefault(true);
-    newContactButton ->setStyleSheet("background-color: Blue; color: white");
+    editContactButton ->setStyleSheet("background-color: green; color: white");
     deleteContactButton = new QPushButton("Delete");
     deleteContactButton ->setDefault(true);
     deleteContactButton ->setAutoDefault(true);
-    newContactButton ->setStyleSheet("background-color: red; color: white");
+    deleteContactButton ->setStyleSheet("background-color: red; color: white");
     searchContactButton = new QPushButton("Search");
     searchContactButton ->setDefault(true);
     searchContactButton ->setAutoDefault(true);
-    newContactButton ->setStyleSheet("background-color: pink; color: white");
+    searchContactButton ->setStyleSheet("background-color: purple; color: white");
     searchContactField = new QLineEdit("Enter first name to search");
 
 
